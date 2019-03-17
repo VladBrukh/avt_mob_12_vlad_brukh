@@ -3,10 +3,9 @@ import org.junit.Test;
 
 public class MainClassTest extends MainClass {
     @Test
-    public void testGetLocalNumber() {
-        int check_number = this.getLocalNumber();
+    public void testGetClassNumber() {
+        int check_number = this.getClassNumber();
 
-        Assert.assertTrue("check_number != 14",check_number == 14);
-
+        Assert.assertTrue("check number can not be > 45",check_number > 45);
     }
 }
